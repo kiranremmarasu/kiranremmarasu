@@ -214,7 +214,7 @@ img {
 	border:0;
 	-ms-interpolation-mode:bicubic;
 }
-svg:not(:root) {
+svg:not(:root) {bac
 	overflow: hidden;
 }
 /* ==========================================================================Figures========================================================================== */
@@ -454,30 +454,30 @@ table {
 /* ==========================================================================Hero========================================================================== */
 .hero {
 	background: url('../img/header-bg.jpg') right bottom no-repeat;
-	background-size: contain;
+	background-size: cover;
 	padding:110px 0 100px 0;
 	height:auto;
 	background-color: #FBFBFB;
 }
 .hero h1 {
-	font-size: 120px;
-	letter-spacing: -8px;
-	margin: 0;
-	font-weight: 600;
-	line-height: 95px;
-	text-transform: uppercase;
+	font-size: 80px;
+    letter-spacing: -5px;
+    margin: -90px 0 0 0;
+    font-weight: 600;
+    line-height: 90px;
+    text-transform: uppercase;
 }
 .hero h1 span {
-	color:#a1a9b0;
+	color:#353535;
 	/* display:inline-block; */
 }
 .hero h3 {
-	font-size: 20px;
+	font-size: 18px;
 	margin:0;
 	padding:0;
 	opacity:0.5;
 	color: #E04343;
-	letter-spacing: 18px;
+	letter-spacing: 12px;
 	line-height: 50px;
 	text-transform: uppercase;
 }
@@ -1116,7 +1116,7 @@ ul.slides li {
 	}
 
 	.hero h1 {
-		font-size: 100px;
+		font-size: 60px;
 		line-height: 80px;
 		margin-top: 65px;
 }
@@ -1193,7 +1193,7 @@ ul.slides li {
 	}
 
 	.hero h3 {
-	    letter-spacing: 10px;
+	    letter-spacing: 5px;
 	}
 
 
